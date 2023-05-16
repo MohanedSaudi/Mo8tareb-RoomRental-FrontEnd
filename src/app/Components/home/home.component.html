@@ -1,0 +1,169 @@
+<!-- <app-header></app-header> -->
+
+<!-- <div class="card-group">
+  <div class="card" *ngFor="let image of rooms[0].images">
+    <h2>{{ image.id }}</h2>
+    <img [src]="image.imageUrl">
+  </div>
+</div> -->
+
+<!-- [dir]="isRtl() ? 'rtl' : 'ltr'" -->
+
+<main id="main">
+  <!-- ======= Intro Single ======= -->
+  <section class="intro-single" [dir]="isRtl() ? 'rtl' : 'ltr'">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-8">
+          <div>
+            <h1 class="title-single">{{ 'Welcome' | translate }}</h1>
+            <span class="color-text-a">{{ 'mainParagraph' | translate }}</span>
+            <span class="color-text-a">{{ 'mainParagraph2' | translate }}</span>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <img src="/assets/images/logo_transparent - Copy.png" alt="Image description" style="width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
+</section>
+  <!-- End Intro Single-->
+
+  <!-- ======= Services Section ======= -->
+  <section class="section-services section-t8" [dir]="isRtl() ? 'rtl' : 'ltr'">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">{{ 'Our Services' | translate }}</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="bi bi-cart"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">{{ 'Lifestyle' | translate }}</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                {{ 'MainP1' | translate }}
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="bi bi-calendar4-week"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">{{ 'Easy' | translate }}</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                {{ 'MainP2' | translate }}
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="bi bi-card-checklist"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">{{ 'Rent' | translate }}</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                {{ 'MainP3' | translate }}
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Latest Rooms Section ======= -->
+  <section class="section-property section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Latest Rooms</h2>
+            </div>
+            <div class="title-link">
+              <a routerLink="/rooms">All Rooms
+                <span class="bi bi-chevron-right"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="property-carousel" class="swiper">
+        <div class="row">
+
+          <div class="carousel-item-b swiper-slide col-md-4" *ngFor="let room of rooms">
+            <div class="card-box-a card-shadow">
+              <div class="img-box-a">
+                <img style="height:600px" [src]="room.images[0]?.imageUrl" alt="" class="img-a img-fluid">
+              </div>
+              <div class="card-overlay">
+                <div class="card-overlay-a-content">
+                  <div class="card-header-a">
+                    <h2 class="card-title-a">
+                      <a routerLink="/rooms/{{room.id}}"> {{room.location}}
+                        </a>
+                    </h2>
+                  </div>
+                  <div class="card-body-a">
+                    <div class="price-box d-flex">
+                      <span class="price-a">{{ 'rent' | translate }} | $ {{room.price}}</span>
+                    </div>
+                    <a routerLink="/room/{{room.id}}" class="link-a">{{ 'Click here to view' | translate }}
+                      <span class="bi bi-chevron-right"></span>
+                    </a>
+                  </div>
+                  <div class="card-footer-a">
+                    <ul class="card-info d-flex justify-content-around">
+                      <li>
+                        <h4 class="card-info-title">{{ 'Beds' | translate }}</h4>
+                        <span>{{room.noBeds}}</span>
+                      </li>
+                      <li>
+                        <h4 class="card-info-title">{{ 'Location' | translate }}</h4>
+                        <span>{{room.location}}</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End carousel item -->
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Latest Properties Section -->
+
+</main><!-- End #main -->
+

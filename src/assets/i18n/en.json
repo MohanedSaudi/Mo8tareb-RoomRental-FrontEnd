@@ -1,0 +1,108 @@
+{
+    "Mo8tareb": "Mo8tareb",
+    "Home": "Home",
+    "Rooms": "Rooms",
+    "My Rooms":"My Rooms",
+    "Rent A Room":"Rent A Room",
+    "About": "About",
+    "Contact": "Contact",
+    "Register": "Register",
+    "Sign out": "Sign out",
+    
+
+    "Email": "Email",
+    "Password": "Password",
+    "Forgot": "Forgot?",
+    "Sign In": "Sign In",
+    "Not a member": "Sign In",
+    "Sign up now": "Sign up now",
+    "Sign In With": " Sign In With",
+    "Facebook": "Facebook",
+    "Google": "Google",
+    "Reserved": " All Rights Reserved.",
+    
+    
+    "Registration": "Registration Form",
+    "First Name": "First Name",
+    "Last Name": "Last Name",
+    "User Name": "User Name",
+    "Email Address": "Email Address",
+    "Phone Number": "Phone Number",
+    "Gender": "Gender",
+    "Male": "Male",
+    "Female": "Female",
+    "Confirm Password": "Confirm Password",
+
+    
+    "Contact Us Now":"Contact Us Now",
+    "ContactParagraph":"We understand the hassle and stress of finding the right rental room that ticks all the boxes. That's why we have created a user-friendly website that makes the process of finding and booking rental rooms seamless and stress-free. With our website, you can search for rental rooms based on your preferred location, budget, and amenities, among other factors.",
+    "Your Name":"Your Name",
+    "Your Email":"Your Email",
+    "Subject":"Subject",
+    "Message":"Message",
+    "Send Message":"Send Message",
+    "Find us in":"Find us in",
+    "Social networks":"Social networks",
+
+
+    "WhoWeAre":"Who We Are ?",
+    "contactParagraph":"Our website is designed with one goal in mind: to provide a seamless and stress-free rental experience for our customers. We understand that finding the right rental room can be a daunting task, especially for those who are new to a particular city or country. That's why we have created a website that offers a comprehensive range of rental room options to suit all budgets, preferences, and needs",
+    "contactParagraph1":"One of the standout features of our website is the ease of navigation. We have designed the website with a user-friendly interface, making it easy for customers to search and filter rental rooms based on their desired location, budget, and amenities. Our search algorithm ensures that customers are presented with the most relevant rental room options that meet their requirements.",
+    "contactParagraph2":"We also take pride in the diversity of rental room options available on our website. We understand that every customer has different preferences and needs when it comes to rental rooms. That's why we offer a wide range of options, from private rooms to shared rooms and entire apartments. Customers can choose from a variety of rental room types, sizes, and styles, ensuring that they find the perfect accommodation option that meets their individual needs.",
+    
+
+    "test":"test",
+    "OurAmazingRooms":"Discover Our Amazing Rooms",
+    "roomParagraph":"Welcome to our website! We invite you to discover our amazing rooms and experience a truly unforgettable stay. From cozy and comfortable rooms to luxurious suites, we offer a range of options to suit every taste and budget. Whether you're traveling for business or pleasure, our rooms are designed to provide the ultimate in relaxation and comfort. Explore our website to discover more about our rooms and amenities, and book your stay with us today. We look forward to welcoming you!",
+    "rent":"rent",
+    "Click here to view":"Click here to view",
+    "Beds":"Beds",
+    "Location":"Location",
+
+    "Quick Summary":"Quick Summary",
+    "Status":"Status",
+    "Room ID":"Room ID",
+    "Room Description":"Room Description",
+    "Amenities":"Amenities",
+    "Reserve Room":"Reserve Room",
+
+
+
+    "Welcome":"Welcome to our rental room website",
+    "mainParagraph":"Welcome to our rental room website, your ultimate destination for finding the perfect rental room for your stay. Whether you are looking for a short-term stay or a long-term accommodation option, we have got you covered. Our website provides an easy and convenient platform to search and book rental rooms that suit your requirements and budget.",
+    "mainParagraph2":"In addition to providing a vast selection of rental rooms, our website also offers other essential features and benefits. For instance, we provide detailed descriptions and photos of the rental rooms to help you make an informed decision. We also provide customer support to assist you in case of any questions or issues that you may encounter.",
+    "Our Services":"Our Services",
+    "Lifestyle":"Search",
+    "Easy":"Detailed",
+    "Rent":"Support",
+    "MainP1":"Comprehensive Search and Filtering Options: Our website provides a comprehensive search and filtering system, which allows users to search for rental rooms based on their preferred location, budget, and amenities, among other factors. This feature ensures that users can easily find the most relevant rental room options that meet their requirements.",
+    "MainP2":"Detailed Descriptions and Photos: We provide detailed descriptions and photos of each rental room on our website, allowing users to make an informed decision before booking. This feature ensures that users have a clear understanding of what to expect from the rental room, helping them to avoid any surprises during their stay.",
+    "MainP3":"Customer Support: Our website offers customer support to assist users with any questions or issues they may encounter during the rental process. This feature ensures that users have access to reliable support and guidance, helping them to navigate the rental process smoothly and efficiently.",
+
+
+    "NoRooms":"You haven't reserved any room yet ",
+    "Rooms you have Reserved":"Rooms you have Reserved",
+    "Review My Rooms":"Review My Rooms",
+    "Your Reservation has been":"Your Reservation has been",
+    "Approved":"Approved",
+    "By Room Owner, You can Proceed to checkout to rent the room":"By Room Owner, You can Proceed to checkout to rent the room",
+    "Proceed to ckeckout":"Proceed to ckeckout",
+
+
+    "Join Us As A Room Owner":"Join Us As A Room Owner",
+    "roomOwnerP1":"Mo8tareb Room Owner Services, please note that if you Click this button uou will become a Room owner andall your previous Reviews, Reservations, Payment History will be deleted",
+    "Rent My Rooms":"Rent My Rooms",
+    "roomOwnerP2":"M8tareb is a user-friendly web application designed for renting rooms and real estate. It offers a wide range of features to make the process of renting easy and hassle-free. The app uses Google Maps API to locate rooms and provide information about nearby services. It allows users to search for rooms based on their preferred services, proximity to their location, and payment options, among other things. The app has a rating and review system, which helps users make informed decisions about the quality of the rooms they are interested in renting. Overall, M8tareb is a reliable platform for renting rooms and real estate, offering excellent customer service and support.",
+    
+    
+    "Welcome to the Technology of ":"Welcome to the Technology of test",
+    "AIP0":"Mo8tareb website is the first-of-its-kind renting website that utilizes AI technology to make the search for renting rooms effortless and efficient.",
+    "AIP1":"Mo8tareb is a revolutionary website for renting rooms that uses AI to make the process of finding the perfect room easier and more efficient than ever before. Our website is the first of its kind, powered by advanced artificial intelligence algorithms that provide users with personalized recommendations based on their preferences and needs. With Mo8tareb, you no longer need to spend hours searching through various websites or rely on Google to find the perfect room. Our search engine is designed to provide you with accurate and relevant results in just seconds.",
+    "AIP2":"Mo8tareb also features a user-friendly interface that makes it easy to navigate and find what you need. Whether you're looking for a single room or an entire apartment, our website has everything you need to make your search quick and easy. Our team is dedicated to providing the best possible user experience, and we are constantly working to improve our website and add new features to make the process of renting a room as simple and efficient as possible. So why wait? Start your search today and discover why Mo8tareb is the ultimate destination for anyone looking to rent a room.",
+    "Why US":"Why US",
+    "Next":"Next",
+    "Previous":"Previous"
+    
+    
+
+}

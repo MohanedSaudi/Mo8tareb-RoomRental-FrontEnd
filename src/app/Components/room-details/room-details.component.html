@@ -1,0 +1,200 @@
+<main id="main">
+
+  <!-- ======= Intro Single ======= -->
+  <section class="intro-single">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-8">
+          <div class="title-single-box">
+            <h1 class="title-single"> {{room?.location}} </h1>
+            <!-- <span class="color-text-a">Chicago, IL 606543</span> -->
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a routerLink="/home">Home</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a routerLink="/rooms">Rooms</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                {{room?.location}}
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Intro Single-->
+
+  <!-- ======= Property Single ======= -->
+  <section class="property-single nav-arrow-b">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-6 ">
+          <img style="width: 100%;" [src]="room.images[0]?.imageUrl" alt="">
+        </div>
+        <div class="col-md-6">
+          <div *ngFor="let img of room?.images" style="display:inline-block; ">
+            <img [src]="img?.imageUrl" alt="" style="width: 300px; height:300px;margin-right:5px">
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-m-12">
+
+
+          <div class="row justify-content-between">
+
+            <div class="col-md-5 col-lg-4">
+              <div class="property-price d-flex justify-content-center foo">
+                <div class="card-header-c d-flex">
+                  <div class="card-box-ico">
+                    <span class="bi bi-cash">$</span>
+                  </div>
+                  <div class="card-title-c align-self-center">
+                    <h5 class="title-c">{{room?.price}}</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="property-summary">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="title-box-d section-t4">
+                      <h3 class="title-d">Quick Summary</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="summary-list">
+                  <ul class="list">
+                    <li class="d-flex justify-content-between">
+                      <strong>Room ID:</strong>
+                      <span>{{room?.id}}</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <strong>Location:</strong>
+                      <span>{{room?.location}}</span>
+                    </li>
+
+                    <li class="d-flex justify-content-between">
+                      <strong> Status: </strong>
+                      <span> Rent </span>
+                    </li>
+
+                    <li class="d-flex justify-content-between">
+                      <strong>Beds:</strong>
+                      <span>{{room?.noBeds}}</span>
+                    </li>
+
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-7 section-md-t3">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="title-box-d">
+                    <h3 class="title-d">Room Description</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="property-description">
+
+                <p class="description color-text-a no-margin">
+                  {{room?.description}}
+                </p>
+              </div>
+              <div class="row section-t3">
+                <div class="col-sm-12">
+                  <div class="title-box-d">
+                    <h3 class="title-d"> Amenities </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="amenities-list color-text-a">
+                <ul class="list-a no-margin">
+                  <li *ngFor="let service of room.services"> {{service.name}} </li>
+
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-m-12  d-flex justify-content-center align-items-center">
+
+
+            <section class="msger">
+              <header class="msger-header">
+                <div class="msger-header-title">
+                  <i class="fas fa-comment-alt"></i><b> Reviews Of users Reserved This Room</b>
+                </div>
+                <div class="msger-header-options">
+                  <span><i class="fas fa-cog"></i></span>
+                </div>
+              </header>
+
+              <main class="msger-chat" #msgerChat>
+                <div class="msg left-msg">
+                  <!-- <div class="msg-img"
+            style="background-image: url(https://cdn-icons-png.flaticon.com/512/1129/1129196.png)"></div>
+
+          <div class="msg-bubble"> -->
+                  <!-- <div class="msg-info">
+              <div class="msg-info-name">Mo8tareb GBT </div>
+              <div class="msg-info-time">12:45</div>
+            </div> -->
+
+                  <!-- <div class="msg-text">
+              إزيك, أنا مغترب جي بي تي بقدر أرد على أي سؤال تتخيله, كلمني بأي لغة في العالم وهرد عليك بيها
+              😄
+            </div> -->
+                  <!-- </div> -->
+                </div>
+
+                <div class="msg right-msg">
+                  <!-- <div
+           class="msg-img"
+           style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCRQLjKEmvEsX-E2U8m9r48UWRLLgl3iun4HV1W-EJnQZ6fvi35BH_afEMmR0IeCKXMUI&usqp=CAU)"
+          ></div> -->
+
+                  <!-- <div class="msg-bubble">
+            <div class="msg-info">
+              <div class="msg-info-name">Me</div>
+              <div class="msg-info-time">12:46</div>
+            </div>
+
+            <div class="msg-text">
+              You can change your name in JS section!
+            </div>
+          </div> -->
+                </div>
+              </main>
+
+              <form (ngSubmit)="submitReview( )" h-10 #msgerForm class="msger-inputarea ">
+                <label for="review-input">Enter your Review:</label>
+                <input required type="text" id="review-input" class="msger-input" #msgerInput placeholder="Enter your Review...">
+                <label for="range-input">Enter Range (0 to 10):</label>
+                <input required type="number" id="range-input" class="msger-input" #rangeInput
+                  placeholder="Enter Range (0 to 10)" min="0" max="10">
+                <button type="submit" class="msger-send-btn">Send</button>
+              </form>
+
+            </section>
+          </div>
+        </div>
+        <a class="m-auto text-center" href="CheckingReservation/{{room.id}}">
+          <button class="btn btn-success m-auto text-center w-50 h-50 p-4  mt-5 mb-5 ">Reserve Room</button>
+        </a>
+      </div>
+    </div>
+  </section><!-- End Property Single-->
+
+</main><!-- End #main -->
